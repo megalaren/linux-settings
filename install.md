@@ -2,9 +2,13 @@
 
 - **Generate ssh key**   
 `ssh-keygen -t rsa`  
+If a config file is needed:  
+`touch ~/.ssh/config`  
 
 - **Install git**  
 `sudo apt install git`  
+`git config --global user.name "Aleksei Briushinin"`  
+`git config --global user.email "a.briushinin@novotorica.com"`  
 
 - **Install telegram**  
 `wget https://telegram.org/dl/desktop/linux`  
