@@ -33,12 +33,26 @@ If a config file is needed:
   Run as root to update:  
   `sudo /opt/Postman/app/postman -no-sandbox`
 
- - **Install sublime text**  
+- **Install sublime text**  
 `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`  
 `sudo apt install apt-transport-https`  
 `echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list`  
 `sudo apt update`  
-`sudo apt install sublime-text`
-
-
-
+`sudo apt install sublime-text`  
+  Preferences -> Settings, paste text:  
+  ```
+  {
+    "color_scheme": "Packages/Color Scheme - Legacy/IDLE.tmTheme",
+    "font_size": 10,
+    "ignored_packages":
+    [
+        "Vintage",
+    ],
+    "margin": 0,
+    "theme": "Default.sublime-theme",
+    "ui_scale": 1.25,
+  }
+  ```
+- **Install rocket chat**  
+Download deb package from here:   
+`https://github.com/RocketChat/Rocket.Chat.Electron/releases`  
