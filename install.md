@@ -56,3 +56,17 @@ If a config file is needed:
 - **Install rocket chat**  
 Download deb package from here:   
 `https://github.com/RocketChat/Rocket.Chat.Electron/releases`  
+
+- **Install PyCharm**  
+Download from here:  
+`https://www.jetbrains.com/ru-ru/pycharm/download/#section=linux`  
+`sudo tar xzf pycharm-*.tar.gz -C /opt/`  
+`cd /opt/pycharm-*/bin`  
+`sh pycharm.sh`  
+  Tools -> Create Desktop Entry  
+  
+  To update:  
+`sudo chown -R laren:root /opt/pycharm_dir/`  
+  The program will update and after restarting it will offer to import the previous configuration file, which is usually located here: `~/.PyCharm201X.X/config`  
+  After update:  
+`sudo chown -R root:root /opt/pycharm_dir/`  
