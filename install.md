@@ -10,6 +10,34 @@ If a config file is needed:
 `git config --global user.name "Aleksei Briushinin"`  
 `git config --global user.email "a.briushinin@novotorica.com"`  
 
+- **Install docker**  
+Remove old docker versions:  
+`sudo apt remove docker docker-engine docker.io containerd runc`  
+`sudo apt update`  
+  Install packages for https download:  
+  ```
+  sudo apt install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common -y
+  ```
+  Add a GPG key:  
+`curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`  
+Add a Docker Repository:  
+Ubuntu:  
+`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"`  
+Linux mint:  
+`sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(. /etc/os-release; echo "$UBUNTU_CODENAME") stable"`  
+`sudo apt update`  
+Install docker:  
+`sudo apt install docker-ce docker-compose -y`  
+ Check Docker is running:  
+`sudo systemctl status docker`  
+Automatic start of the docker daemon at system startup:  
+`sudo systemctl enable docker`  
+
 - **Install telegram**  
 `wget https://telegram.org/dl/desktop/linux`  
 `sudo tar xJf linux -C /opt/`  
