@@ -38,12 +38,12 @@ Install docker:
 Automatic start of the docker daemon at system startup:  
 `sudo systemctl enable docker`  
 
-- **Install telegram**  
+- **Install Telegram**  
 `wget https://telegram.org/dl/desktop/linux`  
 `sudo tar xJf linux -C /opt/`  
 `sudo ln -s /opt/Telegram/Telegram /usr/local/bin/telegram-desktop`  
 
-- **Install postman**  
+- **Install Postman**  
 `wget https://dl.pstmn.io/download/latest/linux64`  
 `sudo tar xzf linux64 -C /opt/`  
 `touch ~/.local/share/applications/Postman.desktop`  
@@ -61,7 +61,7 @@ Automatic start of the docker daemon at system startup:
   Run as root to update:  
   `sudo /opt/Postman/app/postman -no-sandbox`
 
-- **Install sublime text**  
+- **Install Sublime Text**  
 `wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -`  
 `sudo apt install apt-transport-https`  
 `echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list`  
@@ -81,7 +81,7 @@ Automatic start of the docker daemon at system startup:
     "ui_scale": 1.25,
   }
   ```
-- **Install rocket chat**  
+- **Install Rocket Chat**  
 Download deb package from here:   
 `https://github.com/RocketChat/Rocket.Chat.Electron/releases`  
 
@@ -98,3 +98,12 @@ Download from here:
   The program will update and after restarting it will offer to import the previous configuration file, which is usually located here: `~/.PyCharm201X.X/config`  
   After update:  
 `sudo chown -R root:root /opt/pycharm_dir/`  
+
+- **Install Skype**  
+`curl -s https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -`  
+`echo "deb https://repo.skype.com/deb stable main" | sudo tee -a /etc/apt/sources.list.d/skype.list`  
+`sudo apt update`  
+`sudo apt -y install skypeforlinux`  
+
+- **Install Zoom**  
+`https://zoom.us/download`  
