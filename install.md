@@ -99,6 +99,10 @@ Download from here:
   After update:  
 `sudo chown -R root:root /opt/pycharm_dir/`  
 
+- **Install Datagrip**
+Download from here:  
+`[https://www.jetbrains.com/ru-ru/pycharm/download/#section=linux](https://www.jetbrains.com/ru-ru/datagrip/)` 
+
 - **Install Skype**  
 `curl -s https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -`  
 `echo "deb https://repo.skype.com/deb stable main" | sudo tee -a /etc/apt/sources.list.d/skype.list`  
