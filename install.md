@@ -101,7 +101,11 @@ Download from here:
 
 - **Install Datagrip**
 Download from here:  
-`[https://www.jetbrains.com/ru-ru/pycharm/download/#section=linux](https://www.jetbrains.com/ru-ru/datagrip/)` 
+`https://www.jetbrains.com/ru-ru/datagrip/`
+`sudo tar xzf datagrip-*.tar.gz -C /opt/`
+`cd /opt/DataGrip-*/bin`  
+`sh datagrip.sh`  
+  Tools -> Create Desktop Entry  
 
 - **Install Skype**  
 `curl -s https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -`  
