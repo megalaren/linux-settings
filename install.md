@@ -10,6 +10,13 @@ If a config file is needed:
 `git config --global user.name "Aleksei Briushinin"`  
 `git config --global user.email "a.briushinin@novotorica.com"`  
 
+- **Install specific python version**  
+  ```
+  sudo add-apt-repository ppa:deadsnakes/ppa
+  sudo apt update
+  sudo apt install python3.9 python3.9-distutils python3.9-dev python3.9-venv
+  ```
+
 - **Install docker**  
 Remove old docker versions:  
 `sudo apt remove docker docker-engine docker.io containerd runc`  
