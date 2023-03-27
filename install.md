@@ -99,13 +99,23 @@ Download from here:
   After update:  
 `sudo chown -R root:root /opt/pycharm_dir/`  
 
-- **Install Datagrip**
+- **Install Datagrip**  
 Download from here:  
-`https://www.jetbrains.com/ru-ru/datagrip/`
-`sudo tar xzf datagrip-*.tar.gz -C /opt/`
-`cd /opt/DataGrip-*/bin`  
-`sh datagrip.sh`  
-  Tools -> Create Desktop Entry  
+https://www.jetbrains.com/ru-ru/datagrip/
+  ```
+  sudo tar xzf datagrip-*.tar.gz -C /opt/
+  cd /opt/DataGrip-*/bin
+  sh datagrip.sh
+  ```
+  Tools -> Create Desktop Entry 
+
+- **Install AppImageLauncher**  
+https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable
+  ```
+  sudo add-apt-repository ppa:appimagelauncher-team/stable
+  sudo apt update
+  sudo apt install appimagelauncher
+  ```
 
 - **Install Skype**  
 `curl -s https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add -`  
@@ -114,4 +124,4 @@ Download from here:
 `sudo apt -y install skypeforlinux`  
 
 - **Install Zoom**  
-`https://zoom.us/download`  
+`https://zoom.us/download` 
