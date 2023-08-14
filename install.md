@@ -30,7 +30,7 @@ Remove old docker versions:
     gnupg-agent \
     software-properties-common -y
   ```
-  Add a GPG key:  
+  Add a GPG key: (**NEED TO UPDATE THIS STEP**)   
 `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`  
 Add a Docker Repository:  
 Ubuntu:  
