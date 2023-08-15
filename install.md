@@ -133,6 +133,16 @@ https://www.jetbrains.com/ru-ru/datagrip/
   ```
   Tools -> Create Desktop Entry 
 
+- **Activate JetBrains**  
+[Tutorial](https://losper.net/topic/283-activation-instruction-jetbrains/#comment-979)  
+Download archive from here (console version): https://github.com/p1ratrulezzz/brainser/releases  
+Password: "forum.losper.net"  
+Run script:  
+  ```
+  chmod +x jetbrainser-linux-x64 
+  ./jetbrainser-linux-x64
+  ```
+
 - **Install AppImageLauncher**  
 https://launchpad.net/~appimagelauncher-team/+archive/ubuntu/stable
   ```
